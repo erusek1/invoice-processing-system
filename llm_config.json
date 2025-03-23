@@ -1,0 +1,8 @@
+{
+    "llm_type": "api",
+    "api_url": "http://localhost:5000/api/generate",
+    "command": "python /path/to/llm.py --input {prompt_file} --output {output_file}",
+    "model_path": "/path/to/llama-model.bin",
+    "prompt_template": "Analyze the following electrical supply item data:\n\n{data}\n\nPlease provide the following analysis:\n1. Identify any significant price changes\n2. Compare prices across vendors for the same items\n3. Identify items with unusual pricing\n4. Suggest potential cost-saving opportunities\n\nAnalysis:",
+    "output_format": "text"
+}
